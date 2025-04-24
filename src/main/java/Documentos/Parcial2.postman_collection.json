@@ -1,0 +1,307 @@
+{
+	"info": {
+		"_postman_id": "08c6bbe9-c26a-49d8-9e3d-85743e34b601",
+		"name": "Parcial2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38800454"
+	},
+	"item": [
+		{
+			"name": "Equipos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/equipos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"equipos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtener Equipos id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/equipos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"equipos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear equipo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín\",\r\n  \"fundacion\": \"1947-03-07\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/equipos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"equipos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Equipo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/equipos/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"equipos",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Equipo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/equipos/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"equipos",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jugadores",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jugadores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugadores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jugadores Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jugadores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugadores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Jugador",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jugadores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugadores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Jugador",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jugadores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugadores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Jugador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Atlético Nacional\",\r\n  \"ciudad\": \"Medellín Antioquia\",\r\n  \"fundacion\": \"1947-03-07\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jugadores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugadores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
